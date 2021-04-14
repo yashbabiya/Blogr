@@ -177,8 +177,14 @@ a, button {
   left: 50%;
   width: 95%;
   border-radius: 5px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  -webkit-box-shadow: 10px 10px 8px black;
+          box-shadow: 10px 10px 8px black;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: white;
 }
 

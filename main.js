@@ -1,12 +1,15 @@
 const menu = document.querySelector('.burger');
 const nav = document.querySelector('.navigation');
 menu.addEventListener("click",()=>{
-    if(nav.classList.contains('hide'))
+    if(nav.classList.contains('hided'))
     {
-        nav.classList.remove('hide');
+        nav.classList.remove('hided');
+        nav.style.clipPath = "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
     }
     else{
-        nav.classList.add('hide');
+        nav.classList.add('hided');
+        nav.style.clipPath = "polygon(0 0, 100% 0, 100% 0%, 0 0%)"
+
     }
 });
 const product = document.querySelector('.product');
