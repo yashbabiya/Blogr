@@ -1,0 +1,53 @@
+.page{
+    background-color: black;
+}
+.art{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(-30%);
+    position: relative;
+    // overflow: hidden;
+    // height:300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+    width:100%;
+    .cont{
+        color:white;
+        z-index: 10;
+    }
+    p{
+        display: inline-block;
+        padding-right: 10%;
+    }
+    .circle{
+        position: absolute;
+        top:0;
+        left:0;
+        transform: translateY(-50%);
+    }
+    .phones{
+        z-index: 10;
+        width:600px;
+    }
+}
+.in-art{
+    position: absolute;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:100%;
+    height:60%;
+    overflow: hidden;
+    background-image: linear-gradient(to right, hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+    border-radius: 0 100px 0px 100px;
+    img{
+        transform: translate(-30%,-50%);
+    }
+
+}

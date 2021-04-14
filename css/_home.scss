@@ -1,0 +1,33 @@
+.home{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // min-height:80vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    text-align: center;
+    padding-left:10%;
+    padding-right:10%;
+    color:white;
+    h1{
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    p{
+        // line-height: 50px;
+        margin-top:10px;
+        margin-bottom:30px;
+
+    }
+    .border{
+        border:2px solid white;
+    }
+   .inner{
+       transform: translateY(-20%);
+   }
+    
+}
